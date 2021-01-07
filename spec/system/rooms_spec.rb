@@ -24,4 +24,3 @@ RSpec.describe "チャットルームの削除機能", type: :system do
     expect(current_path).to eq root_path
   end
 end
-
