@@ -9,3 +9,4 @@ class Message < ApplicationRecord
     self.image.attached?
   end
 end
+
