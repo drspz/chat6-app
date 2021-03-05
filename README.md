@@ -15,7 +15,7 @@
 - has_many :rooms, through: room_users
 - has_many :messages
 
-## rooms テーブル
+## rooms テーブル  
 
 | Column | Type   | Options     |
 | ------ | ------ | ----------- |
