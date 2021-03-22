@@ -1,6 +1,7 @@
-# テーブル設計
+# テーブル設計        　　　  　　　　　　　　　　　　　　　　
+  
 
-## users テーブル
+## users テーブル    
 
 | Column   | Type   | Options     |
 | -------- | ------ | ----------- |
@@ -8,13 +9,13 @@
 | email    | string | null: false |
 | password | string | null: false |
 
-### Association
+### Association  
 
 - has_many :room_users
 - has_many :rooms, through: room_users
 - has_many :messages
 
-## rooms テーブル
+## rooms テーブル  
 
 | Column | Type   | Options     |
 | ------ | ------ | ----------- |
@@ -33,7 +34,7 @@
 | user   | references | null: false, foreign_key: true |
 | room   | references | null: false, foreign_key: true |
 
-### Association
+### Association  
 
 - belongs_to :room
 - belongs_to :user
