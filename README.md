@@ -3,7 +3,7 @@
   
 ## users テーブル                       
   
-| Column   | Type   | Options     |
+| Column   | Type   | Options     |  
 | -------- | ------ | ----------- |  
 | name     | string | null: false |
 | email    | string | null: false |
